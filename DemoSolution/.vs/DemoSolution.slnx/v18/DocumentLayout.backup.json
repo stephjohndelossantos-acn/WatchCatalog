@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE85FBD9-6AE0-42AC-9E69-87FD7FA0E313}|Exercise02_CSharp\\Exercise02_CSharp.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\exercise02_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE85FBD9-6AE0-42AC-9E69-87FD7FA0E313}|Exercise02_CSharp\\Exercise02_CSharp.csproj|solutionrelative:exercise02_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0F8ED89-51A0-4098-B181-9E85BCF7C3EB}|Exercise03_CSharp\\Exercise03_CSharp.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\exercise03_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0F8ED89-51A0-4098-B181-9E85BCF7C3EB}|Exercise03_CSharp\\Exercise03_CSharp.csproj|solutionrelative:exercise03_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E45FEA5B-E22C-4058-ADD0-FF1382A618F7}|Exercise01_CSharp\\Exercise01_CSharp.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\exercise01_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E45FEA5B-E22C-4058-ADD0-FF1382A618F7}|Exercise01_CSharp\\Exercise01_CSharp.csproj|solutionrelative:exercise01_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\oop\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|solutionrelative:oop\\engine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\oop\\enginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|solutionrelative:oop\\enginetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\oop\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|solutionrelative:oop\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\oop\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|solutionrelative:oop\\motorcycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|c:\\users\\s.p.de.los.santos\\desktop\\c#\\repos\\demosolution\\oop\\fourwheels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07383B22-F475-463C-ABDD-DC123F84A256}|OOP\\OOP.csproj|solutionrelative:oop\\fourwheels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise01_CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise01_CSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise01_CSharp\\Program.cs",
+              "RelativeToolTip": "Exercise01_CSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:54:47.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise02_CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise02_CSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise02_CSharp\\Program.cs",
+              "RelativeToolTip": "Exercise02_CSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:55:34.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise03_CSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Exercise03_CSharp\\Program.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\Exercise03_CSharp\\Program.cs",
+              "RelativeToolTip": "Exercise03_CSharp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T08:55:56.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Engine.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Engine.cs",
+              "RelativeDocumentMoniker": "OOP\\Engine.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Engine.cs",
+              "RelativeToolTip": "OOP\\Engine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T01:38:47.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EngineType.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\EngineType.cs",
+              "RelativeDocumentMoniker": "OOP\\EngineType.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\EngineType.cs",
+              "RelativeToolTip": "OOP\\EngineType.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T02:34:25.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Vehicle.cs",
+              "RelativeDocumentMoniker": "OOP\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Vehicle.cs",
+              "RelativeToolTip": "OOP\\Vehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:44:49.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Motorcycle.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Motorcycle.cs",
+              "RelativeDocumentMoniker": "OOP\\Motorcycle.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\Motorcycle.cs",
+              "RelativeToolTip": "OOP\\Motorcycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T05:59:03.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FourWheels.cs",
+              "DocumentMoniker": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\FourWheels.cs",
+              "RelativeDocumentMoniker": "OOP\\FourWheels.cs",
+              "ToolTip": "C:\\Users\\s.p.de.los.santos\\Desktop\\C#\\Repos\\DemoSolution\\OOP\\FourWheels.cs",
+              "RelativeToolTip": "OOP\\FourWheels.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-30T06:01:12.951Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
