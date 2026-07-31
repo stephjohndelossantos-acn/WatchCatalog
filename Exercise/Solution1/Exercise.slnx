@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Project Path="Exercise01_CSharp/Exercise01_CSharp.csproj" />
+  <Project Path="Exercise02_CSharp/Exercise02_CSharp.csproj" />
+  <Project Path="Exercise03_CSharp/Exercise03_CSharp.csproj" />
+</Solution>

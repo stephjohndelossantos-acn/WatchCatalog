@@ -46,6 +46,13 @@
         //displaying the triangle method
         public static void DisplayTriangle(int height)
         {
+            //6
+            * 
+             *
+              *
+               *
+                *
+                 *
             //this will slowly consume the blank spaces
             for (int row = height; row >= 1; row--)
             {
