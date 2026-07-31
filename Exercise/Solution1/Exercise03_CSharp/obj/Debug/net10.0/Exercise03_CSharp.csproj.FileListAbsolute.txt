@@ -1,0 +1,15 @@
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\bin\Debug\net10.0\Exercise03_CSharp.exe
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\bin\Debug\net10.0\Exercise03_CSharp.deps.json
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\bin\Debug\net10.0\Exercise03_CSharp.runtimeconfig.json
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\bin\Debug\net10.0\Exercise03_CSharp.dll
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\bin\Debug\net10.0\Exercise03_CSharp.pdb
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.AssemblyInfoInputs.cache
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.AssemblyInfo.cs
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.sourcelink.json
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.dll
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\refint\Exercise03_CSharp.dll
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.pdb
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\Exercise03_CSharp.genruntimeconfig.cache
+C:\Users\s.p.de.los.santos\Desktop\C#\s.p.de.los.santos\Exercise\Solution1\Exercise03_CSharp\obj\Debug\net10.0\ref\Exercise03_CSharp.dll
