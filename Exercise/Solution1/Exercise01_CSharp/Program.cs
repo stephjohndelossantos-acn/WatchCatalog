@@ -1,4 +1,4 @@
-﻿namespace Exercise03_CSharp
+﻿namespace Exercise01_CSharp
 {
     internal class Program
     {
