@@ -2,4 +2,5 @@
   <Project Path="Exercise01_CSharp/Exercise01_CSharp.csproj" />
   <Project Path="Exercise02_CSharp/Exercise02_CSharp.csproj" />
   <Project Path="Exercise03_CSharp/Exercise03_CSharp.csproj" />
+  <Project Path="Exercise04_CSharp/Exercise04_CSharp.csproj" Id="898f8b0f-d300-44e6-92a4-271b3d9fdc27" />
 </Solution>
