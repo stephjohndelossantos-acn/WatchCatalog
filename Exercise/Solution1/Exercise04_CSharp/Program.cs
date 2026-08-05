@@ -21,12 +21,7 @@
                     Console.Write("Enter the start of the range: ");
                     start = int.Parse(Console.ReadLine());
 
-                    //we must not accept -1 negative numbers!
-                    if (start <= 0)
-                    {
-                        Console.WriteLine("Error, enter a start value that is less than or equal to end value. ");
-                        continue;
-                    }
+                    
 
                     //end
                     Console.Write("Enter the end of the range: ");
