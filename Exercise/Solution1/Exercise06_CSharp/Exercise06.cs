@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Exercise06_CSharp
 {
-    internal class Program
+    public class Exercise06
     {
         public static void Main(string[] args)
         {
@@ -44,7 +44,7 @@ namespace Exercise06_CSharp
                 Console.Write("]");
 
                 //calling method
-                int result = FindSmallestNumber(numbers);
+                int result = FindSmallestNumber(values);
                 
                 //smallest that is missing from array
                 Console.WriteLine("\nSmallest Positive Integer is: " + result);
@@ -59,9 +59,25 @@ namespace Exercise06_CSharp
             }
             
         }        //main end
-        public static int FindSmallestNumber(int[] numbers)
+        public static int FindSmallestNumber(string[] numbers1)
         {
-           int smallest = 1;
+            int smallest = 1;
+
+            //removing the commas
+            string input = string.Join(" ", numbers1);
+            input = input.Replace(",", "");
+            //removing teh spaces
+            string[] values = input.Split(' ');
+
+            //the szie of array will be the length of the values
+            //declare
+            int[] numbers = new int[values.Length];
+
+            //parsing
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = int.Parse(values[i]);
+            }
 
             Array.Sort(numbers);
 
@@ -74,7 +90,26 @@ namespace Exercise06_CSharp
                 }
             }
             return smallest;
+        }// for int
+        public static int FindSmallestNumber(int[] numbers)
+        {
+            int smallest = 1;
+
+            Array.Sort(numbers);
+
+            //checking if the element in array is equal to smallest then we iterate until it doesnt match any element
+            foreach (int num in numbers)
+            {
+                if(num == smallest)
+                {
+                    smallest++;
+                }
+            }
+            return smallest;
+        }// for int
+            
         }
+
     }
         
 }
