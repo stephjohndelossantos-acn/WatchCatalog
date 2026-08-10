@@ -57,7 +57,7 @@ namespace Exercise07_CSharp
             result = Exercise06.FindSmallestNumber(input);
             Assert.Equal(1, result);
         }
-
+        //
 
     }
 }
