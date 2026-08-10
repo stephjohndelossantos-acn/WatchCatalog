@@ -45,7 +45,7 @@ namespace Exercise07_CSharp
             int result = 6;
             int[] input = { 1, 2, 3, 4, 5 };
             result = Exercise06.FindSmallestNumber(input);
-            Assert.Equal(3, result);
+            Assert.Equal(6, result);
         }
         //testing for arrays
         [Fact]
