@@ -27,6 +27,7 @@ namespace Exercise07_CSharp
             Assert.Equal(1, result);
         }
         //testing if it will stort and removes the s
+        [Fact]
         public void Test3()
         {
             int expected = 4;
@@ -37,6 +38,7 @@ namespace Exercise07_CSharp
             Assert.Equal(4, result);
         }
         //testing sequentce of numbers
+        [Fact]
         public void Test4()
         {
             int expected = 6;
@@ -46,6 +48,7 @@ namespace Exercise07_CSharp
             Assert.Equal(3, result);
         }
         //testing for arrays
+        [Fact]
         public void Test5()
         {
             int expected = 1;
