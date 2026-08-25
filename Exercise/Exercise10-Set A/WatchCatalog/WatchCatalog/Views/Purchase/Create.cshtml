@@ -1,0 +1,38 @@
+@model WatchCatalog.Models.Purchase
+@{
+    ViewData["Title"] = "Create Purchase";
+}
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h2>Create Purchase</h2>
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="mb-3">
+                <label asp-for="WatchName" class="form-label"></label>
+                <input asp-for="WatchName" class="form-control" />
+                <span asp-validation-for="WatchName" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Brand" class="form-label"></label>
+                <input asp-for="Brand" class="form-control" />
+                <span asp-validation-for="Brand" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="PurchaseDate" class="form-label"></label>
+                <input asp-for="PurchaseDate" class="form-control" type="date" />
+                <span asp-validation-for="PurchaseDate" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Add</button>
+            <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

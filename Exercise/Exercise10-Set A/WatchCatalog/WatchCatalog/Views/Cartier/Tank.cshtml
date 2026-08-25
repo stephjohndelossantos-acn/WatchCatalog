@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="detail-wrap">
+    <img class="main-image" src="https://mystorageaccount031402.blob.core.windows.net/watchcatalog/Cartier/Cartier Tank.jpg"
+         alt="Cartier Tank">
+    <div class="detail-header">
+        <h1>Cartier Tank</h1>
+        <p class="price">₱420,000</p>
+    </div>
+    <div class="mb-3">
+        <a class="btn btn-primary" asp-controller="Purchase" asp-action="Create" asp-route-watchName="Cartier Tank" asp-route-brand="Cartier">Purchase this watch</a>
+    </div>
+    <div class="detail-specs">
+        <div><span>Height</span><strong>33.7 mm</strong></div>
+        <div><span>Diameter/Thickness</span><strong>33.7 mm / 7.5 mm (approximate)</strong></div>
+        <div><span>Movement/Chronograph</span><strong>Quartz</strong></div>
+        <div><span>Caliber</span><strong>Cartier High Autonomy Quartz Movement</strong></div>
+    </div>
+    <div class="detail-desc">
+        <h2>Description</h2>
+        <p>The Cartier Tank is a distinguished dress watch known for its elegant design and precision. Featuring a 33 mm stainless steel case, a fixed bezel, and Cartier's Caliber 1917 MC quartz movement, it offers accurate timekeeping and sophisticated style. Celebrated for its iconic rectangular case, luxurious finish, and association with refined watchmaking, the Tank remains a favorite among watch enthusiasts and collectors worldwide.</p>
+    </div>
+
+</div>

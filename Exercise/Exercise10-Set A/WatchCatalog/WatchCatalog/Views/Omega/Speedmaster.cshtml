@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="detail-wrap">
+    <img class="main-image" src="https://mystorageaccount031402.blob.core.windows.net/watchcatalog/omega/omega-speedmaster.jpg"
+         alt="Omega Speedmaster">
+    <div class="detail-header">
+        <h1>Omega Speedmaster</h1>
+        <p class="price">₱450,000</p>
+    </div>
+    <div class="mb-3">
+        <a class="btn btn-primary" asp-controller="Purchase" asp-action="Create" asp-route-watchName="Omega Speedmaster" asp-route-brand="Omega">Purchase this watch</a>
+    </div>
+    <div class="detail-specs">
+        <div><span>Height</span><strong>42.5 mm</strong></div>
+        <div><span>Diameter/Thickness</span><strong>42 mm/ 12.2 mm (approximate)</strong></div>
+        <div><span>Movement/Chronograph</span><strong>Perpetual, Mechanical, Self-Winding</strong></div>
+        <div><span>Caliber</span><strong>Omega Caliber 3861 (modern chronograph movement)</strong></div>
+    </div>
+    <div class="detail-desc">
+        <h2>Description</h2>
+        <p>The Omega Speedmaster, famously known as the "Moonwatch," is a legendary chronograph with a rich history in space exploration. Featuring a 42 mm stainless steel case, a tachymeter bezel, and Omega's Caliber 3861 manual-winding chronograph movement with a 50-hour power reserve, it offers precise timekeeping and robust performance. Renowned for its durability, iconic design, and association with NASA missions, the Speedmaster remains a favorite among watch enthusiasts and collectors worldwide.</p>
+    </div>
+
+</div>

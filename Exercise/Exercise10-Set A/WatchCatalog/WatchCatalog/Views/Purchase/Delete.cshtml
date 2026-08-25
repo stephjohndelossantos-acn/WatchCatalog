@@ -1,0 +1,26 @@
+@model WatchCatalog.Models.Purchase
+@{
+    ViewData["Title"] = "Delete Purchase";
+}
+
+<div class="mt-4">
+    <h2>Delete Purchase</h2>
+    <h5>Are you sure you want to remove this purchase record?</h5>
+
+    <dl class="row mt-3">
+        <dt class="col-sm-3">Watch Name</dt>
+        <dd class="col-sm-9">@Model.WatchName</dd>
+
+        <dt class="col-sm-3">Brand</dt>
+        <dd class="col-sm-9">@Model.Brand</dd>
+
+        <dt class="col-sm-3">Purchase Date</dt>
+        <dd class="col-sm-9">@Model.PurchaseDate.ToString("yyyy-MM-dd")</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>
