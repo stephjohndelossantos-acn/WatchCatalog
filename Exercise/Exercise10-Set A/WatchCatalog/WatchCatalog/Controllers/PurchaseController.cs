@@ -1,22 +1,22 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using WatchCatalog.Data;
 using WatchCatalog.Models;
+using WatchCatalog.Services;
 
 namespace WatchCatalog.Controllers
 {
     public class PurchaseController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly PurchaseApiClient _purchaseApiClient;
 
-        public PurchaseController(ApplicationDbContext context)
+        public PurchaseController(PurchaseApiClient purchaseApiClient)
         {
-            _context = context;
+            _purchaseApiClient = purchaseApiClient;
         }
 
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Purchases.OrderByDescending(x => x.PurchaseDate).ToListAsync());
+            var purchases = await _purchaseApiClient.GetPurchasesAsync();
+            return View(purchases.OrderByDescending(x => x.PurchaseDate).ToList());
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -26,7 +26,7 @@ namespace WatchCatalog.Controllers
                 return NotFound();
             }
 
-            var purchase = await _context.Purchases.FirstOrDefaultAsync(m => m.Id == id);
+            var purchase = await _purchaseApiClient.GetPurchaseAsync(id.Value);
             if (purchase == null)
             {
                 return NotFound();
@@ -61,8 +61,13 @@ namespace WatchCatalog.Controllers
                 return View(purchase);
             }
 
-            _context.Add(purchase);
-            await _context.SaveChangesAsync();
+            var created = await _purchaseApiClient.CreatePurchaseAsync(purchase);
+            if (!created)
+            {
+                ModelState.AddModelError(string.Empty, "Unable to create purchase through API.");
+                return View(purchase);
+            }
+
             return RedirectToAction("Index", "Home");
         }
 
@@ -73,7 +78,7 @@ namespace WatchCatalog.Controllers
                 return NotFound();
             }
 
-            var purchase = await _context.Purchases.FindAsync(id);
+            var purchase = await _purchaseApiClient.GetPurchaseAsync(id.Value);
             if (purchase == null)
             {
                 return NotFound();
@@ -96,30 +101,13 @@ namespace WatchCatalog.Controllers
                 return View(purchase);
             }
 
-            try
+            purchase.Price = 0;
+            purchase.Quantity = 1;
+
+            var updated = await _purchaseApiClient.UpdatePurchaseAsync(purchase);
+            if (!updated)
             {
-                var purchaseToUpdate = await _context.Purchases.FirstOrDefaultAsync(p => p.Id == id);
-                if (purchaseToUpdate == null)
-                {
-                    return NotFound();
-                }
-
-                purchaseToUpdate.WatchName = purchase.WatchName;
-                purchaseToUpdate.Brand = purchase.Brand;
-                purchaseToUpdate.PurchaseDate = purchase.PurchaseDate;
-                purchaseToUpdate.Price = 0;
-                purchaseToUpdate.Quantity = 1;
-
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!PurchaseExists(purchase.Id))
-                {
-                    return NotFound();
-                }
-
-                throw;
+                return NotFound();
             }
 
             return RedirectToAction(nameof(Index));
@@ -132,7 +120,7 @@ namespace WatchCatalog.Controllers
                 return NotFound();
             }
 
-            var purchase = await _context.Purchases.FirstOrDefaultAsync(m => m.Id == id);
+            var purchase = await _purchaseApiClient.GetPurchaseAsync(id.Value);
             if (purchase == null)
             {
                 return NotFound();
@@ -145,20 +133,9 @@ namespace WatchCatalog.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var purchase = await _context.Purchases.FindAsync(id);
-            if (purchase != null)
-            {
-                _context.Purchases.Remove(purchase);
-                await _context.SaveChangesAsync();
-            }
+            await _purchaseApiClient.DeletePurchaseAsync(id);
 
             return RedirectToAction(nameof(Index));
         }
-
-        private bool PurchaseExists(int id)
-        {
-            return _context.Purchases.Any(e => e.Id == id);
-        }
-
     }
 }

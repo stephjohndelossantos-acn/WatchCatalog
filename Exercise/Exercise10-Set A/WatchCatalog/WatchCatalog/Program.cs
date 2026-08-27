@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WatchCatalog.Data;
+using WatchCatalog.Services;
 
 namespace WatchCatalog
 {
@@ -24,6 +25,14 @@ namespace WatchCatalog
                 })
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            var apiBaseUrl = builder.Configuration["ApiSettings:BaseUrl"]
+                ?? throw new InvalidOperationException("ApiSettings:BaseUrl is missing.");
+
+            builder.Services.AddHttpClient<PurchaseApiClient>(client =>
+            {
+                client.BaseAddress = new Uri(apiBaseUrl);
+            });
 
             var app = builder.Build();
 

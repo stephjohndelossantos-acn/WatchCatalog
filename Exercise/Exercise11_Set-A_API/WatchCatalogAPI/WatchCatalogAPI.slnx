@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../Exercise10-Set A/WatchCatalog/WatchCatalog/WatchCatalog.csproj" />
+  <Project Path="WatchCatalogAPI/WatchCatalogAPI.csproj" />
+</Solution>
